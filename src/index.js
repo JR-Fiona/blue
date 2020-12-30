@@ -19,6 +19,7 @@ export default () => {
   return (
     <NavigationContainer>
       <Tab.Navigator
+        initialRouteName="home"
         screenOptions={({route}) => ({
           tabBarIcon: ({focused, color, size}) => {
             let iconSource;

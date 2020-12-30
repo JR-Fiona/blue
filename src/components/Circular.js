@@ -25,14 +25,14 @@ function Circular(props) {
     },
     up: {
       position: 'absolute',
-      top: size === 200 ? 127 : 115,
+      top: size === 200 ? convertSize(120) : convertSize(108),
       right: -9,
       color: '#fff',
       fontSize: 16,
     },
     down: {
       position: 'absolute',
-      top: size === 200 ? 127 : 115,
+      top: size === 200 ? convertSize(120) : convertSize(108),
       left: -9,
       color: '#fff',
       fontSize: 16,

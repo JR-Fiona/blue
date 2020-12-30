@@ -81,6 +81,8 @@ target 'blue' do
 
 
 
+  # pod 'react-native-vlc-media-player', :path => '../node_modules/react-native-vlc-media-player'
+
   target 'blueTests' do
     inherit! :complete
     # Pods for testing
